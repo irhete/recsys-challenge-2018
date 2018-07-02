@@ -15,6 +15,15 @@ Our team focused in the main track of the challenge. This repository contains th
 ## Generate Submission
 
 
+* Step 0: Create a new Conda environment and install the required libraries
+
+```shell
+
+create conda --name recsys python=3.6
+source activate recsys
+pip install -r requirements.txt
+```
+
 * Step 1: Generate Optimization and Validation subsets from train data
 
 ```shell

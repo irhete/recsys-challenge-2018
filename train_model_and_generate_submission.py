@@ -50,11 +50,6 @@ data_type = argv[1] # val or submission
 playlist_count = int(argv[2]) # 990000 for val, or 1000000 for submission
 n_top_songs = 2262292 # all tracks
 
-results_dir = "result_files"
-
-if not os.path.exists(results_dir):
-    os.makedirs(results_dir)
-
 item_weight = {"title_only": 0,
                "1_with_title": 0.9035899566365081,
                "5_no_title": 0.710443592369379,
@@ -195,11 +190,11 @@ print("Done: %s seconds" % (time.time() - start))
 
 if data_type == "val":
     input_filename = "val_data_10000.json"
-    output_file_name = os.path.join(results_dir, "validation.csv")
+    output_file_name = "validation.csv"
     
 else:
     input_filename = "challenge_set.json"
-    output_file_name = os.path.join(results_dir, "submission.csv")
+    output_file_name = "submission.csv"
     
 # Read the challenge playlists
 print("Reading the challenge playlists...")
