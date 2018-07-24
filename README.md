@@ -11,7 +11,7 @@ For more information, please refer to:
 
 Our team focused in the main track of the challenge. This repository contains the scripts used to generate the final solution.
 
-Team members: [Irene Teinemaa](https://scholar.google.nl/citations?user=UQZ22uQAAAAJ&hl=en&oi=ao), [Niek Tax](https://scholar.google.com.au/citations?user=XkRvCC4AAAAJ&hl=en&oi=ao), [Carlos Bentes](https://www.cbentes.com/), Maksym Semikin, Meri Liis Treimann, Christian Safka.
+Team members: [Irene Teinemaa](https://irhete.github.io), [Niek Tax](https://scholar.google.com.au/citations?user=XkRvCC4AAAAJ&hl=en&oi=ao), [Carlos Bentes](https://www.cbentes.com/), Maksym Semikin, Meri Liis Treimann, Christian Safka.
 
 
 ## Generate Submission
